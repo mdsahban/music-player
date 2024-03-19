@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Music Player</title>
+    <script src="https://kit.fontawesome.com/9e9330d728.js" crossorigin="anonymous"></script>
+
+    
+</head>
+
+<body>
+    <div class="disc">
+        <img id="disc" class="discImg" src="disc.png" alt="Disc Image"/>
+     </div>
+    <div class="player">
+        <div class="icontop">
+            <div class="icons control"><i class="fa-solid fa-chevron-left"></i></i></div>
+            <p>Music Player</p>
+            <div class="icons control"><i class="fa-solid fa-bars"></i></i></div>
+        </div>
+        <div class="poster">
+            <img src="still-rollin-Flyer.png" alt="" id="musicPoster" />
+        </div>
+
+        <div class="songs-detail">
+            <h2>Still Rollin</h2>
+            <h3>Shubh</h3>
+        </div>
+
+        <div class="progress">
+            <input type="range" value="0" name="" id="progress-bar">
+        </div>
+
+        <div class="controls">
+            <div class="heart control"><i id="heart" class="fa-sharp fa-regular fa-heart"></i></div>
+            <div class="prev control"><i class="fa-solid fa-backward-step"></i></div>
+            <div id="playBox" class="play control" onclick="playPause()"><i id="play" class="fa-solid fa-play"></i>
+            </div>
+            <div class="next control"><i class="fa-solid fa-forward-step"></i></div>
+            <div class="repeat control"><i id="repeat" class="fa-solid fa-repeat"></i></div>
+        </div>
+
+        <audio src="Still Rollin.mp3" id="song"></audio>
+
+
+         
+
+    </div>
+</body>
+<script src="script.js"></script>
+ 
+
+</html>
