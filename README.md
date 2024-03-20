@@ -28,7 +28,7 @@ This is a Music Player web application built using HTML, CSS, and JavaScript. It
 
 ## Demo
 
-Insert gif or link to demo
+[Live Demo](https://mdsahban.github.io/music-player/)
 
 
 ## License
